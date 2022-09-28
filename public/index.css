@@ -1,0 +1,93 @@
+
+.block{
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+.wbutton{
+  position: fixed;
+  right: 24px;
+  bottom: 30px;
+}
+.wbutton img.icon{
+  height: 60px;
+  width: 60px;
+}
+.whatsappContact{
+width: 320px;
+visibility: hidden;
+opacity: 0;
+transition: 1s;
+
+}
+.wHeader{
+  background: rgb(9, 94, 84);
+color: rgb(17, 17, 17);
+padding:20px ;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.wHeader .image{
+  height: 52px;
+  width: 52px;
+  overflow:'hidden';
+  border-radius: 50%;
+}
+.wHeader .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.wHeader p{
+  font-size: 13px;
+}
+.wbody{
+  background-image:url("pattern.webp") ;
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+}
+.wchat{
+  background-color: white;
+  border-radius: 15px;
+  width: 60%;
+  padding:20px ;
+
+}
+.wchat p{
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+.wbutton-wrapper{
+  background-color: white;
+  padding: 10px 5px;
+}
+.wbutton-wrapper a{
+  text-decoration: none;
+  color: white;
+  padding:5px 10px;
+  background: rgb(20, 198, 86);
+  font-size: 15px;
+  cursor: pointer;
+  width: 85%;
+  margin: auto;
+  border-radius: 20px;
+}
+.wbutton-wrapper a:hover{
+    color: white;
+}
+
+.wcross{
+  top: 20px;
+  right: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.whatsappbtn{
+  cursor: pointer;
+}
+.chayBtn{
+  cursor: pointer;
+}
+
