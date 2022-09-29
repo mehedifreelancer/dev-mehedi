@@ -1,16 +1,45 @@
-function SingleMarketPlace({data}) {
-    return ( 
+import { Button, OverlayTrigger, Tooltip } from "react-bootstrap";
 
-        <>
-        <div className="col-lg-4 col-md-4 col-sm-6">
-			<div className="single-brand-item d-table">
-				<div className="d-table-cell text-center">
-									<img src={data.logo ===''? require('../../img/placeholder-image.webp'): data.logo} alt="" />
-								</div>
-							</div>
-						</div>
-        </>
-     );
+function SingleMarketPlace({ data }) {
+  return (
+    <>
+      <div className="col-lg-4 col-md-4 col-6">
+        <OverlayTrigger
+          placement="top"
+          overlay={
+            <Tooltip className="CustomTooltip" id={`tooltip-top`}>
+               <div
+          className=""
+        >
+          <div className=" text-center">
+            {data.tooltip !== '' ? data.tooltip : 'Nothing to see'}
+          </div>
+        </div>
+            </Tooltip>
+          }
+        >
+
+        <div
+          className="single-brand-item  d-flex justify-content-center align-items-center align-content-center"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          data-bs-title="Tooltip on top"
+        >
+          <div className="">
+            <img
+              src={
+                data.logo === ""
+                  ? require("../../img/placeholder-image.webp")
+                  : data.logo
+              }
+              alt=""
+            />
+          </div>
+        </div>
+		</OverlayTrigger>
+      </div>
+    </>
+  );
 }
 
 export default SingleMarketPlace;

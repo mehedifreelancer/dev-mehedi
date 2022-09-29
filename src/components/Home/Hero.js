@@ -12,7 +12,7 @@ function Hero() {
 				<div className="row">
 					<div className="col-lg-7">
 						<div className="banner_content">
-							<h3 className="text-uppercase">Hell0</h3>
+							<h3 className="text-uppercase">Hello</h3>
 							<h1 className="text-uppercase">I am <span style={{color:`${colors.light}`}}>{hero.name}</span></h1>
 							<h5 className="text-uppercase">
 								<span style={{color:`${colors.light}`}}>{hero.roll}</span>

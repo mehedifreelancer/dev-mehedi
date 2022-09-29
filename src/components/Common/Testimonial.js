@@ -9,7 +9,9 @@ function Testimonial() {
         dots: true,
         infinite: true,
 		arrows:false,
-        speed: 500,
+		autoplay:true,
+		autoplaySpeed:6000,
+        speed: 2000,
         slidesToShow: 2,
         slidesToScroll: 2,
 		responsive: [

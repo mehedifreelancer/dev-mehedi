@@ -8,6 +8,8 @@ function Navbar() {
 	useEffect(() =>{
 		setPathName(window.location.pathname);
 		window.scrollTo(0,0);
+		const body = document.querySelector("body");
+		body.classList.add("hidden");
 	},[pathName])
 
 

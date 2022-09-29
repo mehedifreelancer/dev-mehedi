@@ -1,15 +1,29 @@
+import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import CommonBanner from "../../components/Common/CommonBanner";
+import Loader from "../../components/Common/Loader";
 import { projects } from "../../data/home";
+import Preloader from "../../js/loader";
 import setTitle from "../../js/title";
 
 function PortfolioDetails() {
 
+    const loader = Preloader();
+
     const {id,title} = useParams();
     const data = projects.project.find((item)=> {return item.id == id });
-    setTitle(title)
+    setTitle(title);
+
+
+    useEffect(() =>{
+        window.scrollTo(0,0);
+    },[])
+
 
     return ( 
+       <>
+        <Loader loader={loader}/>
+
         <section className="portfolio_details_area section_gap">
         <CommonBanner title={title} path={'Home - Project - Details'}/>
         <div className="container">
@@ -45,6 +59,7 @@ function PortfolioDetails() {
             </div>
         </div>
     </section>
+       </>
      );
 }
 

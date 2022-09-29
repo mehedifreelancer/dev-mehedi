@@ -9,18 +9,18 @@ function About() {
 		<div className="gap_90"></div>
 		<div className="container">
 			<div className="row justify-content-start align-items-center">
-				<div className="col-lg-5">
+				<div className="col-lg-6">
 					<div className="about_img">
-						<img className="" src={require("../../img/about-us.png")} alt=""/>
+						<img className="img-fluid " src={require("../../img/banner/71619-coding.gif")} alt=""/>
 					</div>
 				</div>
 
-				<div className="offset-lg-1 col-lg-5">
+				<div className="col-lg-6">
 					<div className="main_title text-left">
 						<div dangerouslySetInnerHTML={{__html:intro.heading}}>
 
 						</div>
-						<div dangerouslySetInnerHTML={{__html:intro.desc}}>
+						<div className="intro" dangerouslySetInnerHTML={{__html:intro.desc}}>
 
 						</div>
 

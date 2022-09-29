@@ -18,10 +18,10 @@ const nav =
         link:'/portfolio'
        },
 
-       {
-        title:'Blog',
-        link:'/blog'
-       },
+    //    {
+    //     title:'Blog',
+    //     link:'/blog'
+    //    },
 
        {
         title:'Contact',
@@ -47,79 +47,95 @@ const hero= {
 const logo={
     logo:''
 }
-const marketPlace = [
+const marketPlace = {
+
+desc:`The companies where I delivered my services and made my skill strong. It was really enjoyable to compete with worlds developers on various marketplaces`,
+
+market:[
     {
         id:1,
         sr:1,
         name:'BYSL Global',
         logo:'https://media-exp1.licdn.com/dms/image/C560BAQGvT0nR-g0V5Q/company-logo_100_100/0/1612126614289?e=1672272000&v=beta&t=r3HT3ufEVr7Fn2BTNma3CzRXN5vDywCOsf36HsKaxRA',
-        link:'/'
+        link:'/',
+        tooltip:'BYSL Global Technologies. I ts a group of company. I am working here as a Front-End web developer.'
     },
     {
         id:2,
         sr:6,
         name:'PPH',
         logo:'https://media-exp1.licdn.com/dms/image/C4D0BAQG3zLWkNhNoDQ/company-logo_100_100/0/1536765616732?e=1672272000&v=beta&t=2PcvYYfp9DVmLP_-Ut7KK9GHIlAutirQ7rUATZkOyWQ',
-        link:'/'
+        link:'/',
+        tooltip:'PPH is the on of the best frellancing marketplace. I provided services in this market place as a full stack developer. '
     },
     {
         id:3,
         sr:4,
         name:'fiver',
         logo:'https://media-exp1.licdn.com/dms/image/C4D0BAQFHz9agyy675A/company-logo_100_100/0/1635337455276?e=1672272000&v=beta&t=Uhgn4lVK5YTWcmIsMNxF9DEztLU9PiutN38HElRTyt4',
-        link:'/'
+        link:'/',
+        tooltip:'Who did not hear the name of fiver! I have been proved my skill as a front end developer in this marketplace and achived 5 stars from my valuable clients'
     },
     {
         id:4,
         sr:2,
         name:'Doodle.Inc',
         logo:'https://media-exp1.licdn.com/dms/image/C560BAQGu3O_S6NivcA/company-logo_100_100/0/1610274805535?e=1672272000&v=beta&t=2sqRkKu-t8zmq5pVSNE_p16KHIPWvaEIjhQXgAgY0Vo',
-        link:'/'
+        link:'/',
+        tooltip: 'Doodle Inc is a Software Company I worked here only for 4 months as a Front-End developer my responsibilty was Html,Css,Js,Jquery'
     },
     {
         id:5,
         sr:5,
         name:'Upwork',
         logo:'https://media-exp1.licdn.com/dms/image/C4E0BAQFAvA55uI9RQQ/company-logo_100_100/0/1620158724382?e=1672272000&v=beta&t=RRjNTs1Q4PuV0B_IuOGjp1yEiryQ6Xob_7cpxoiNXaE',
-        link:'/'
+        link:'/',
+        tooltip:'Fastest growing and popular marketplace. Due to shoratge of time could not do good amount of work. So satisfied my self doing only 2 project :)'
     },
     {
         id:6,
         sr:3,
         name:'HM Expo Private Ltd',
         logo:'https://yt3.ggpht.com/ytc/AMLnZu_iC2R-5kLMO05U53qsPA12ZQ5HMssAIq89bnVW=s900-c-k-c0x00ffffff-no-rj',
-        link:'/'
+        link:'/',
+        tooltip:'1 year worked with this company as a Fromt-End web developer'
     },
     {
         id:7,
         sr:7,
         name:'Enter Idea',
         logo:'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEREhIQEBASFRAWEg8QFhcQFQ8QEhgVFRUXFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0OGBAQGjAmHSUtLi0rMzMrLzgrNy03KzctLTI4Li0rKy0rNS8tLTcwLSwtLjU3LTg3LTc3LSsrLSsrLf/AABEIAMkA+wMBIgACEQEDEQH/xAAcAAEAAwEBAQEBAAAAAAAAAAAAAQYIBwUEAgP/xABSEAABAwICAgsLBgsGBwEAAAAAAQIDBBEFBxKzBiExNUFRcXKRobITIjIzNGFzgZOx0RRUdZKiwSMkRFNiZXSC0+HwFUJDUmPSJSZVo6TC8Rf/xAAaAQEAAwEBAQAAAAAAAAAAAAAABAUGAwIB/8QAJxEBAAEEAQIEBwAAAAAAAAAAAAECAxESBAYUBSFBcRMWMlGRodH/2gAMAwEAAhEDEQA/AO4gEaQEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhTjGYGadbhuJS0zGQyQNbE5Ee1yP75iKvfovGq8B2gy3nnvvPzKfVoBf8Jz6gWyVNJIzgV0TmyJy2WylzwnNHCKiyNrGMd/lnR8K34ruSy+pVMn6QuBtmmropE0opGPTjY5rk6UU+hFMS0lbLEt4pZI1443uYv2VLbg+aWL0+02rdI21tGdrZU2vOu2nSBq4HA8Kz8qG2Sqo4n8boHPjX6rtJOsuOEZ14ZNZJVlgcv51mk36zbgdLB4uG7KqGo8RWU8i8TZGaX1VW57DVuB+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAy3nnvvPzKfVoakMt5577z8yn1aAUAAAAAAJIAEop7mFbLq+l8nrZ2Jxaaub6muunUeEAOoYXnhicdklbBM1LeE1Y3dLV3fUW7Cs+6d1kqaOWNeFYnNlannsuipwEAa0wjMrCqm3c6yNrlW2jNeJ32rFppapkiaUb2Pbxscjk6jEaKfTSVskK6cMskbtrbjc+N3S1QNsgyng2amLU1kSqWVqcFQiS/bXvl9aqX/AGI5xVtbPFRtpKfu0iq1rnPkZGlmq5dJERV4OADtoKrI/G/7sOGpyzVS7fsj+Xdse+b4X7er/hAW8FLfNshTcgwteSaq++M/C1GyL5thvtp/9gF3BRVqdknzfDfaz/7T+XyzZL80w/20nwAv4KAtZsl+aYf7WT4H8vlGyf5vh/tH/ADogOcuq9lCblLQLySL95HyzZT80oPafzA6ODnHyzZT80oPafzHyzZT80oPafzA6ODnHyzZT80oPafzCVeyhd2loE5ZAOjgp+W2yKoxCmklqWxtlZUzQKkaLo94jePd21UuAAy3nnvvPzKfVoakMt5577z8yn1aAUAAACbEHXsusrqTE6BtTJNNHMskrLsVits1bJ3qp94HIiDtWIZBSp4itYvmlYrV6U+BWMSyaxeLbZDHMm34mViLbjtJor0XA54D2sQ2KV8C2moqlnnWKTR+siWPJfGrVs5FRfOiovQB/MEqhAAAAC5ZP78UXPk1Tymlyyf34oufJqngaxQBAAAIUALkKpWtlOzGnou9VdOZUujG7qJxu/yofKqopjMulmzcvVRRbjMysukNI41W5mVrl/Btijb52q93Sq26iaHM2saqd1bE9v6LVY7pRbL0EbvLWcLj5d52ucR7Zdk0iblb2MbLqetSzHaMqIiuY7d5U4085YkUkxMVRmFPds3LVWlcYl+0BCEn1zCHISQoFByZb+KVKfrCt7SF/KDk15JU/SNd2kL8AMt5577z8yn1aGpDLeee+8/Mp9WgFAAAA03kFvUz00/aMyGm8gt6memn7QHR7CxIAhUPgrcFpZUtLTQvT9JjF+49AAUjEsqsHnTbo2xra14HPit57NXR6UUqtdkJRr4irqWeaRIpey1p2EAZ6r8hqxt1hqoZOJHo6O/vK1iOVGLw3/E1kanDA+OTobdHL0GqgBiytweph2pqaeNf9WKWPtIhYsn9+KL0kmqeaufGipZURU4l206Dz0wKlSRsyU0KStW7XtYxrkWypup5lUD00BDSQBDiSHAeFsvxtKOmfNuv2mMTje7c9Sbar5kU4LVVD5XukkcrnuXSVV4zpmcky6FOzg0nOX1Jb7zlxV8yuZr19Ibzpri0Ucf4uPOqZ/AACE0j6KKrfC9ssbla9q3RU83ByfA77sYxdtXTRzJuqlnJxPb3rk6UUz0dWycnVYZ2LuNlRU9bUv7idwq521Zjqbi01WIux9UT+pdGQkhCSzYYIUkhQKFk15JU/SNd2kL8UHJvySp+ka3tIX4AZbzz33n5lPq0NSGW88995+ZT6tAKAAABo7InFqdmGtifPE2RJplVrnta6yrtLZVM4n6VwG2Y66J3gysdzXNX3Kf3R19wxFHUPb4L3JzXKnuPrhxyrZ4FVUN5ssqe5QNpXFzINPs8xVng4jU+uRzu1c9OmzYxplvx1XJxSR07uvQv1garuLmbKfPLFG20mUr04bxvaq+tH2ToPXp8/ahPDoYl41bI9OpUA76Di0Gf0W13ShkTmPavvPTp898OXw4Kln7rHe5wHVgc8p858Hd4U0rOfDKvZRT3MGzAwyrkbFTVjHyvVUaxWyxvVURVWzXtRdxFAs4IRSQBCkhQKDm5QK+mbM1PFPu7mu71V5EWxyFTSlXTNka5j0RWuarVRdtFRU3DiuzHYZNRvc+NqvplW6OS6q2/A9N31ldzLMzO8Nh054lbop7e5OJ9FUAH9cBXthmA7PlVhixUfdHJZ0r1k4u9RbN6US/rQo+w7YXLVPbJMxzKdFRe+71X+ZE4vOdogiRrUa1LIiIiIm0iInAhZcO1MTtLGdR+I0VxHHtznzzP8f1QkICeyQQqEgCj5S+S1H0hX60vBR8pfJaj6QxDWqXgAZbzz33n5lPq0NSGW88995+ZT6tAKAAAAAAAAAAABNyABNxcgASilyyg34ovSSap5TC5ZP78UXPk1TwNYISEAAAAfl6nzOniXdexUXjc1U95OJ+Jl9HJ2VMUyp3y8q+8DXdbsbw2VdJ8MGlxorWr0op+qHY9hsK3jhgR3GqtcvSqmPwedKfs791f113nHvLbLZo9pGuZxIiObwcCJflP7tMqZNJ/xij50mrcatQ9OAhIAAhSSFApuVcWjSz/AEhiOucn3FzKhll5NP8ASGI695bwBlvPPfefmU+rQ1IZbzz33n5lPq0AoAAAAH60QPyD+1NSySLoxse93Exrnr0Ie1Q7CcSm8XQVC8sbmdqwFfBeaTKXGJPyXQ9I+NvVe57FLkZijl7+SlYnnkkcvQ1igcvsLHa6LICT/GxBicaRQucvqc5ye49+iyIoGKiyVFTJxpeNifZS/WBnXRUIhqWkygweP8mc/wBJJI77z16XYBhUdtHD6a6cLmI9ftXAyEX7J/Cqj+1KOX5PN3JHvVX9zk7ml432u61kNM0uFU8XioIWejjjZ7kPq0QJRSSEQkAAAPmxPxMvo5Oypiibwncq+82vifiZfRydlTFE3hO5V94H4AAF2yZ33pOWTVuNWJ8TKeTO+9JyyatxqxPiBIAAEKSQoFRyx8mn+kMS17y3lPyx8ln+kMS17y4ADLeee+8/Mp9WhqQy3nnvvPzKfVoBQAAANGZGYNSy4ayWSmhfL3aZNN8bHusjtrbVDOZpvILepnpp+0B0OKmY3aaxrbf5URvuP6WJAEaIsSAIsSAAAAAH4lkREurkRN3bVE9548WyqhfM2nZW0753KrWsjkjkfdLqqKjVW20i7oHtghpIAAAfNifiZfRydlTFE3hO5V95tfE/Ey+jk7KmKJvCdyr7wPwAALtkzvvScsmrcasT4mU8md96Tlk1bjViASD8uda6qu15zya3GETvY9tePg9XGB6VRUtYl3LZOvoPDrsWc/aZ3retTz5pHOW7luvnPygEZT+RSft2Ia5xdSlZTeRSft2Ia5xdQBlvPPfefmU+rQ1IZbzz33n5lPq0AoAAAGm8gt6memn7RmQ6zl7mpT4ZQpSvpppZkfI/vVjYzvluiaS3XqA0URcz9iGfdU66QUcMfEr3vmVOpqL0FYxDNvF5b/jKR3/MsYzoVbqBqk8jEtk1DT3Sesp2Km6jpGaScrb36jI+I7Iqyouk9VPIi7qPkerfq3t1Hm3A1JiGbuERbSVKyL/pMe/rtYrGI5+Uzb/J6KWReOR7IW8u0jl6jgKqQB1TEM9cRf4mGmibzXyu6XOt1FcxDM3FpvCrXtTiiRrE6kKcAPtrcUnm8fPLIt7/AIR73p6kUs2T+/FFz5NU8phcsn9+KLnyap4GsUAQAAAB82J+Jl9HJ2VMUTeE7lX3m18T8TL6OTsqYom8J3KvvA/AAAu2TO/FJyyatxqCsr2R7q3dxJ/W0ZVysercTplRbLeTsONBr590D6auvfJu7TeJNz+Z8oAAlAejRYQ59lf3retfgB5uU3kUn7biGvcXUo2UaWpJ04Er69OiVS8gDLeee+8/Mp9WhqQy3nnvvPzKfVoBQAAAJuQAJIAAAAAAAAB/WKPSVGtRVVVsiNu5V5ETdA/kXLJ/fii58mqefBhmwbE6iyw0E6ou4rm9zb0vsh0vLbKjEKStp62pWGNkbnOViP7pIt2ObbvUsm7xgd1QENJAA/L72W27bavuXKy9cZ29FcP4bX+U7gHv4n4mX0cnZUxRN4TuVfeaqqIsfe1zFXDLORW/lW4qWOUT5FYldVbPSLdVVbumb/6KBykHUv8A8IxT87Re0n/hEOyJxVP8WjXkkm/hgVjK/fKm5X9hxoVTluB5RYzSTMqInUfdGXVNKSRW7aKi3TQ85bP7G2Tfqzpl+AFmP70tG+RbNTa4V3E6eEqbcH2TJ/0z1rMegyPZU1LImEonEiVAF6osMYzbXvnca/ch91jnP/Nf6q/8gi+yvh/sr/v/ANf/AED0MpfJaj6QxDWqXgqOW2B1VFSviq1jWZ1RPOvclVzPwio7auicNy3ADLeee+8/Mp9WhqQy3nnvvPzKfVoBQATYWAgE2PfwnYXiNTZYaKZyLaznNWNu3wo51kUDwLA6lhOSGJS+OfBAn6SrI7ob8S5YVkNSMstTVTzLxMRkDOi7l6wM9H2UOF1E62ggllXiijkkX7KKaqwnLfCqa3c6KNXJ/elvK7pcqloggaxNFjWtbxMRGp0IBlzCsp8Xn/Je5IttudzWdW2vUXPCMhHrZautRP0adl1+s74HdEJA5zhWTOEw2V8cs7k4ZnrZf3W2QuWGbH6SmREp6WGNL3/BsY313tc9QAQSAAAAAAAAAAAAAAAAAAAAAAAFOD5l5d4jiGJzTU0Te4ubCiPke1jVsxEW3Cd4P5J4Sci/cBwvBshZVstVXMbxtp2OetvM99rL+6pc8KyYwqGyvZJM5OGV62Xla2yHQ2H7QDysK2OUdLb5NSwxKnCxjUd9bd6z1LEgCEQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//2Q==',
-        link:'/'
+        link:'/',
+        tooltip:'Felt good to start journey with this new growing up IT company as a front-end developer'
     },
     {
         id:8,
         sr:8,
         name:'fiver',
         logo:'',
-        link:'/'
+        link:'/',
+        tooltip:''
     },
     {
         id:9,
         sr:9,
         name:'fiver',
         logo:'',
-        link:'/'
+        link:'/',
+        tooltip:''
+
     }
-];
+]
+}
 
 const intro = {
-    heading:`<h2>let’s <br/>
-    Introduce about <br/>
-    myself</h2>`,
-    desc:`Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days.
-
-    Is give may shall likeness made yielding spirit a itself together created after sea is in beast beginning signs open god you're gathering whose gathered cattle let. Creature whales fruit unto meat the life beginning all in under give two.`,
+    heading:`<h2>
+    get intro <br/>
+    about Mehedi</h2>`,
+    desc:`What an excellent time to get meet with you friend!  🙂.
+    I am Mehedi Hasan. <b>I am a Front-End web developer with Back-End experience</b>. I love to play with <b>javascript</b> and that is the reason why I like Front-End. Having skill on Back-End (such as Php, Laravel & Mysql DB) made my skill level up as a Front-End developer to gather sound knowledge about API and handling data from server , team work with Back-End team as well.
+    
+    I am so pleased as your eyes focused on my portfolio.`,
 
     stacks:[
         {
@@ -159,8 +175,7 @@ const services =
 
 {
     heading:'My Stacks',
-    desc:`Is give may shall likeness made yielding spirit a itself togeth created after sea
-    is in beast beginning signs open god you're gathering ithe`,
+    desc:`Before hiring.. It is your right to know how I organized my skills with stacks. I kept my  stacks one by one in this section to represent my skills. `,
 
 service:[
     {
@@ -168,7 +183,8 @@ service:[
         sr:1,
         image:'https://jaki-jezyk-programowania.pl/img/technologies/html&css.png',
         title:'Html & Css',
-        desc:`Creeping for female light years that lesser can't evening heaven isn't bearing tree`
+        quality:'Pro'
+
     },
 
     {
@@ -176,14 +192,15 @@ service:[
         sr:2,
         image:'https://avatars.githubusercontent.com/u/2918581?s=280&v=4',
         title:'Bootstrap',
-        desc:`Creeping for female light years that lesser can't evening heaven isn't bearing tree`
+        quality:'Pro'
+
     },
     {
         id:2,
         sr:2,
         image:'https://tailwindcss.com/_next/static/media/social-square.eab77323.jpg',
         title:'Tailwind Css',
-        desc:`Creeping for female light years that lesser can't evening heaven isn't bearing tree`
+        quality:'Pro'
     },
 
     {
@@ -191,42 +208,48 @@ service:[
         sr:2,
         image:'data:image/png;base64,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',
         title:'Java script (Es6, Es7)',
-        desc:`Creeping for female light years that lesser can't evening heaven isn't bearing tree`
+        quality:'Pro'
+
     },
     {
         id:3,
         sr:3,
         image:'https://www.wpfaster.org/wp-content/uploads/2013/06/jquery-logo.png',
         title:'Jquery & Jquery UI',
-        desc:`Creeping for female light years that lesser can't evening heaven isn't bearing tree`
+        quality:'Pro'
+
     },
     {
         id:4,
         sr:4,
         image:'https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_1e0d62f445e6448af1e125f5702c8227/reactjs-development-services.png',
         title:'React Js',
-        desc:`Creeping for female light years that lesser can't evening heaven isn't bearing tree`
+        quality:'Pro'
+
     },
     {
         id:5,
         sr:5,
         image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7B_ztFD853zWEKrjiKKNudOELTvHkjwcOLeXO2MZ3KbX-WHKULMB_b7E4zmIt6LqPJII&usqp=CAU',
         title:'php',
-        desc:`Creeping for female light years that lesser can't evening heaven isn't bearing tree`
+        quality:'Mid '
+
     },
     {
         id:6,
         sr:6,
         image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjZqYi9vVL0BuDiFrPP1_hBw3YmyF_wUYIFcolctvtjwSIxn8ecjV9iZlXOvS42Gtqfec&usqp=CAU',
         title:'MySQL',
-        desc:`Creeping for female light years that lesser can't evening heaven isn't bearing tree`
+        quality:'Mid '
+
     },
     {
         id:7,
         sr:7,
         image:'https://embed-ssl.wistia.com/deliveries/fece433e54f817872309273fb46fe6e9.jpg',
         title:'Laravel',
-        desc:`Creeping for female light years that lesser can't evening heaven isn't bearing tree`
+        quality:'Mid '
+
     },
 ]
 
@@ -380,8 +403,9 @@ const footer = {
 }
 const testimonial = {
     heading:`<h2>CLIENT SAY ABOUT ME</h2>`,
-    desc:`<p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast
-    beginning signs open god you're gathering ithe</p>`,
+    desc:`<p>Hey ! wait a minute here to judge me. People dropped there comment on my work. As an International developer people marked me as they texted.
+    It helps to make your decission about me ! 
+    </p>`,
 
     reviews:[
         {
