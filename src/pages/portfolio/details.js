@@ -16,7 +16,11 @@ function PortfolioDetails() {
 
 
     useEffect(() =>{
-        window.scrollTo(0,0);
+        window.scroll({
+			top: 0,
+			left: 100,
+			behavior: 'instant'
+		  });
     },[])
 
 

@@ -7,7 +7,11 @@ function Navbar() {
 	const [pathName, setPathName] = useState('');
 	useEffect(() =>{
 		setPathName(window.location.pathname);
-		window.scrollTo(0,0);
+		window.scroll({
+			top: 0,
+			left: 100,
+			behavior: 'instant'
+		  });
 		const body = document.querySelector("body");
 		body.classList.add("hidden");
 	},[pathName])

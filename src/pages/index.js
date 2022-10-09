@@ -20,7 +20,7 @@ function HomePage() {
     
     <Loader loader={loader}/>
     <Hero/>
-    <About/>
+    <About/> 
     <MarketPlaces/>
     <Services/>
     <Projects/>
