@@ -4612,6 +4612,32 @@ h6 {
   font-size: 18px;
 }
 }
-
+.active>.page-link, .page-link.active{
+background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%) !important
+}
+#basic-addon1{
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%) !important;
+  color: white;
+}
+.search{
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+input:focus{
+  box-shadow: none !important;
+}
+.page-link:focus{
+  box-shadow: none !important;
+}
+.page-link {
+ transition: .5s;
+}
+.page-link:hover{
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%) !important;
+  color: white;
+}
 
 @media screen and (max-width:375px) {}

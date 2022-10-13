@@ -11,13 +11,13 @@ function SingleTestimonial({data}) {
                                 </div>
         				<div className="row">
         					<div className="col-lg-2">
-        						<img className='client-img' src={data.clientImage ===''? require('../../img/placeholder-image.webp'): data.clientImage} alt=""/>
+        						<img className='client-img' src={data.clientImage ===''? require('../../img/placeholder-image.webp'): require(`../../img/testimonials/${data.clientImage}`)} alt=""/>
         					</div>
         					<div className="col-lg-10">
         						<div className="testi_text">
         							<div className='d-flex gap-4'>
                                     <h4>{data.clientName}</h4>
-                                    <span><img className='flag' src={data.countryFlag === ''? require('../../img/placeholder-image.webp'): data.countryFlag} ></img></span>
+                                    <span><img className='flag' src={data.countryFlag === ''? require('../../img/placeholder-image.webp'): require(`../../img/flags/${data.countryFlag}`)} ></img></span>
                                     </div>
                                     <span>from: {data.countryName}</span>
                                     <div className='star d-flex gap-1'>

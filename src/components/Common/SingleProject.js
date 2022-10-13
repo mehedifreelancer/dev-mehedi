@@ -9,7 +9,7 @@ function SingleProject({data}) {
         			<div className={`col-lg-4 col-md-6 all  element-item ${tag}`}>
 						<div className="portfolio_box">
 							<div className="single_portfolio">
-								<img style={{height:'270px',objectFit:'cover'}} className="img-fluid w-100 img-thumbnail" src={data.image ===''? require('../../img/placeholder-image.webp'): data.image} alt=""/>
+								<img style={{height:'270px',objectFit:'cover'}} className="img-fluid w-100 img-thumbnail" src={data.image ===''? require('../../img/placeholder-image.webp'): require(`../../img/portfolio/${data.image}`)} alt=""/>
 								<div className="overlay"></div>
 								<a href="img/portfolio/p1.jpg" className="img-gal">
 									<div className="icon d-flex flex-column justify-content-between ">

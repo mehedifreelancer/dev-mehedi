@@ -30,7 +30,7 @@ function SingleMarketPlace({ data }) {
               src={
                 data.logo === ""
                   ? require("../../img/placeholder-image.webp")
-                  : data.logo
+                  : require(`../../img/companies/${data.logo}`) 
               }
               alt=""
             />
