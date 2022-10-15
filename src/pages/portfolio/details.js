@@ -35,7 +35,7 @@ function PortfolioDetails() {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="left_img">
-                            <img style={{height:'450px', objectFit:'cover'}} className="img-fluid" src={data.image ===''? require('../../img/placeholder-image.webp'): data.image} alt=""/>
+                            <img style={{height:'450px', objectFit:'cover'}} className="img-fluid" src={data.image ===''? require('../../img/placeholder-image.webp'): require(`../../img/portfolio/${data.image}`)} alt=""/>
                         </div>
                     </div>
                     <div className="offset-lg-1 col-lg-5">

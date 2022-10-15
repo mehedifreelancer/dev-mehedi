@@ -21,9 +21,9 @@ function Footer() {
 						<div className="footer_social">
 							{
 								footer.socials.map((item)=>
-								<Link className={item}>
+								<a target="_blank" href={item.link} className={item}>
 									<FontAwesomeIcon icon={item.icon}/>
-								</Link>
+								</a>
 								)
 							}
 						</div>

@@ -74,49 +74,15 @@
 
 
     <div class="wbutton">
-      <div class="whatsappContact shadow">
-        <div class="wHeader d-flex justify-content-start align-items-center gap-3 position-relative">
-          <div class="image">
-            <img src="%PUBLIC_URL%/propic.jpg">
-          </div>
-          <div>
-            <h4 class="text-white">Mehedi Hasan</h4>
-            <p  class="text-white mb-0">Typically replies within a day</p>
-          </div>
-          <div>
-            <a class="text-white position-absolute wcross"> x </a>
-          </div>
-        </div>
-  
-        <div  class="wbody position-relative">
-          <div class="wchat position-absolute mt-3 ms-3">
-            <h5 class="text-dark">Mehedi Hasan</h5>
-            <p class="d-flex">Hi, I am Mehedi Hasan. <span>👋</span></p>
-            <p>How can I help you?</p>
-          </div>
-        </div>
-  
-        <div class="wbutton-wrapper d-flex text-center">
-          <a  class="justify-content-center chatBtn">Chat Now</a>
-        </div>
-      </div>
-      <a role="button " class="text-right d-flex justify-content-end whatsappbtn">
+      <a role="button " class="text-right d-flex justify-content-end whatsappbtn chatBtn">
         <img class="icon" src="%PUBLIC_URL%/wp_icon.png.webp">
       </a>
     </div>
 
 
     <script>
-    const button = document.querySelector(".whatsappbtn");
-    const cross = document.querySelector(".wcross");
-    const chatboard = document.querySelector(".whatsappContact");
 
-    button.addEventListener("click", function(){
-      chatboard.classList.toggle('block');
-    });
-    cross.addEventListener("click", function(){
-      chatboard.classList.toggle('block');
-    });
+
 
     const chatBtn = document.querySelector(".chatBtn");
     chatBtn.addEventListener("click", function(){

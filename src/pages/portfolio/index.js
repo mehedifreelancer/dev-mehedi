@@ -9,19 +9,37 @@ import setTitle from "../../js/title";
 
 function PortfolioPage() {
 
-  setTitle('Portfolio')
+
+
+
+  const [items, setItems] = useState(projects.project);
+  const [keyword, setKeyword] = useState('');
+
+
+  setTitle('Portfolio');
+
   useEffect(()=>{
     window.scroll({
 			top: 0,
 			left: 100,
 			behavior: 'instant'
 		  });
-  });
+
+      if(keyword.length > 0){
+        setItems(projects.project.filter((item)=>  
+              item.title.toLowerCase().includes(keyword.toLowerCase()) ||
+              item.tag.toLowerCase().includes(keyword.toLowerCase())
+               ));
+    
+            }else{
+              setItems(projects.project);
+            }
+
+  },[keyword]);
 
 
 
     // We start with an empty list of items.
-    const items =  projects.project;
     const itemsPerPage = 9;
     const [currentItems, setCurrentItems] = useState(items);
     const [pageCount, setPageCount] = useState(0);
@@ -34,7 +52,7 @@ function PortfolioPage() {
       const endOffset = itemOffset + itemsPerPage;
       setCurrentItems(items.slice(itemOffset, endOffset));
       setPageCount(Math.ceil(items.length / itemsPerPage));
-    }, [itemOffset, itemsPerPage]);
+    }, [itemOffset, itemsPerPage,keyword]);
   
     // Invoke when user click to request another page.
     const handlePageClick = (event) => {
@@ -55,7 +73,7 @@ function PortfolioPage() {
 
         <div class="input-group  search">
           <span class="input-group-text" id="basic-addon1"><b className="text-white">Search Project</b></span>
-          <input type="text" class="form-control" placeholder="Ex: Technology"  aria-describedby="basic-addon1" />
+          <input onChange={(e)=>setKeyword(e.target.value)} type="text" class="form-control" placeholder="Ex: Technology"  aria-describedby="basic-addon1" />
         </div>
 
 
