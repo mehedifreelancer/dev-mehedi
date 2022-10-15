@@ -14,7 +14,7 @@ function AboutPage() {
 
         <>
         <Loader loader={loader}/>
-        <CommonBanner title={"About Us"} path={"Home About"}/>
+        <CommonBanner title={"About Me"} path={"Home About"}/>
         <About/>
         <MarketPlaces/>
         <Testimonial/>
