@@ -25,7 +25,7 @@ function About() {
 						</div>
 
 						<div className="text-center ">
-						<a className='primary_btn  px-3' href="../../file/Mehedi_Hasan's_resume.pdf" download> Download CV </a>
+						<a className='primary_btn  px-3' href={require(`../../file/Mehedi_Hasan's_resume.pdf`)} download> Download CV </a>
 
 						</div>
 					</div>
