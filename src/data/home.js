@@ -296,35 +296,23 @@ const projects= {
             client:'',
             completedDate:'12-2-2019'
         },
-        {
-            id:3,
-            sr:3,
-            title:`Podcast Template`,
-            desc:``,
-            stacks:['Html','css', 'js', 'React-js'],
-            image:'podcast.png',
-            link:'https://podcast-react-nu.vercel.app/',
-            tag:'React js',
-            client:'',
-            completedDate:'12-2-2019'
-
-
-        },
+ 
         {
             id:4,
             sr:4,
-            title:`Multiperpose Template`,
+            title:`Techy Touch (React)`,
             desc:``,
-            stacks:['Html','css', 'js', 'React js'],
-            image:'tech1.png',
-            link:'/',
-            tag:'React js',
+            stacks:['Html','css', 'js', 'jquery', 'Bootstrap','React'],
+            image:'techy.png',
+            link:'https://technology-2-react.vercel.app/',
+            tag:'Front End',
             client:'',
-            completedDate:'12-2-2019'
+            completedDate:'10-6-2021'
 
 
 
         },
+
         {
             id:5,
             sr:5,
@@ -369,10 +357,111 @@ const projects= {
 
 
 
-        }
+        },
+        {
+            id:9,
+            sr:9,
+            title:`Techy Touch`,
+            desc:``,
+            stacks:['Html','css', 'js', 'jquery', 'Bootstrap'],
+            image:'techy.png',
+            link:'https://mehed-hasan.github.io/Technology-2/',
+            tag:'Front End',
+            client:'',
+            completedDate:'10-6-2021'
 
+
+
+        },
+        {
+            id:10,
+            sr:10,
+            title:`Food Site`,
+            desc:``,
+            stacks:['Html','css', 'js', 'jquery', 'Bootstrap'],
+            image:'food.png',
+            link:'https://mehed-hasan.github.io/food-ieland/',
+            tag:'Front End',
+            client:'',
+            completedDate:'2-8-2021'
+
+
+
+        },
+        {
+            id:11,
+            sr:11,
+            title:`Corporate Site (Doodle)`,
+            desc:``,
+            stacks:['Html','css', 'js', 'jquery', 'Bootstrap'],
+            image:'doodle.png',
+            link:'https://www.thedoodleinc.com/',
+            tag:'Front End',
+            client:'',
+            completedDate:'1-3-2020'
+
+        },
+        {
+            id:12,
+            sr:12,
+            title:`Demo Site (Doodle)`,
+            desc:``,
+            stacks:['Html','css', 'js', 'jquery', 'Bootstrap'],
+            image:'demo.png',
+            link:'https://www.thedoodleinc.com/',
+            tag:'Front End',
+            client:'',
+            completedDate:'25-12-2019'
+
+        },
+
+
+        {
+            id:13,
+            sr:13,
+            title:`Podcast Template`,
+            desc:``,
+            stacks:['Html','css', 'js', 'React-js'],
+            image:'podcast.png',
+            link:'https://podcast-react-nu.vercel.app/',
+            tag:'React js',
+            client:'',
+            completedDate:'12-2-2019'
+
+
+        },
  
  
+        {
+            id:14,
+            sr:14,
+            title:`Coming Soon`,
+            desc:``,
+            stacks:['Html','css', 'js',],
+            image:'coming.png',
+            link:'https://mehedifreelancer.github.io/comming-soon/',
+            tag:'React js',
+            client:'',
+            completedDate:'12-2-2019'
+
+
+        },
+
+        {
+            id:15,
+            sr:15,
+            title:`Multiperpose Template (React)`,
+            desc:``,
+            stacks:['Html','css', 'js', 'React js'],
+            image:'tech1.png',
+            link:'/',
+            tag:'React js',
+            client:'',
+            completedDate:'12-2-2019'
+
+
+
+        },
 
     ]
 
@@ -518,7 +607,8 @@ const testimonial = {
             commentedOn:'fiver',
             endorsmentLink:'https://www.fiverr.com/web__developer_/design-your-custom-clean-website-using-html-js-and-others?utm_campaign=base_gig_show_share&utm_content=&utm_medium=shared&utm_source=mobile&utm_term='
 
-        },
+        }
+
     ]
 }
 
