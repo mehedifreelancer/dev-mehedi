@@ -18,7 +18,7 @@ function Hero() {
 							</h5>
 							<div className="d-flex align-items-center">
 								<a  className='primary_btn px-3' target='_blank' href={footer.socials[1].link}> Profile</a>
-								<a className='primary_btn  px-3' download="Mehedi's_resume.pdf" target="_blank" href={require(`../../file/Mehedi_Hasan's_resume.pdf`)} > Download CV </a>
+								<a className='primary_btn  px-3' download="Mehedi's_resume.pdf" target="_blank" href={require(`../../file/cv.pdf`)} > Download CV </a>
 
 							</div>
 						</div>
