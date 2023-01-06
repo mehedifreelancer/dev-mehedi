@@ -561,7 +561,7 @@ const projects= {
         <p>`,
         stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
         image:'ec.png',
-        link:'http://wallpo.fahimb.com/getAll',
+        link:'http://ec.bonamibd.com/',
         tag:'Back End',
         client:'',
         completedDate:'12-2-2019'
