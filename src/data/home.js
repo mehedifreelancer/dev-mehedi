@@ -471,11 +471,9 @@ const projects= {
             title:`Blood Donating project`,
             desc:`<p>It is a eaw php project. For trying this project 
             credentials are given bellow.
-            <br>
             <b> User's credentials:</b>
             <p>Phone: 01781873064</p>
             <p>pass: 1234<p>
-            </br>
             <b> Admin credentials:</b>
             <p>User name: mhshuvo</p>
             <p>pass: 61065a98a9c70<p>
@@ -494,11 +492,9 @@ const projects= {
             title:`MLM software`,
             desc:`<p>It is a eaw php project (MLM software). For trying this project 
             credentials are given bellow.
-            <br>
             <b> User's credentials:</b>
             <p>Name: MHasan</p>
             <p>pass: 1234<p>
-            </br>
             <b> Admin credentials:</b>
             <p>User name: admin</p>
             <p>pass: 123<p>
@@ -517,8 +513,6 @@ const projects= {
             title:`Blog Site`,
             desc:`<p>It is a blog project . For trying this project 
             credentials are given bellow.
-            <br>
-
             <b> Admin credentials:</b>
             <p>Admin link: https://www.strata-assist.com/login</p>
             <p>Email: admin123@gmail.com</p>
@@ -537,19 +531,17 @@ const projects= {
             title:`Laravel API `,
             desc:`<p>It is a wallpaper site's admin and created full api. For trying this project 
             credentials are given bellow.
-            <br>
             <b> User's credentials:</b>
             <p>Name: MHasan</p>
             <p>pass: 1234<p>
-            </br>
             <b> Admin credentials:</b>
             <p>Email: admin@gmail.com</p>
             <p>pass: 12345678<p>
             <p>`,
-            stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
+            stacks:['Html','css', 'js', 'Php', 'Mysql'],
             image:'api.png',
             link:'http://wallpo.fahimb.com/getAll',
-            tag:'Laravel',
+            tag:'Php',
             client:'',
             completedDate:'12-2-2019'
         },
@@ -559,20 +551,18 @@ const projects= {
         title:`Ecommerce Site `,
         desc:`<p>It is a full ecommerce site with MLM system. For trying this project 
         credentials are given bellow.
-        <br>
         <b> User's credentials:</b>
         <p>Phone: 01828090170</p>
         <p>pass: 12345678<p>
-        </br>
         <b> Admin credentials:</b>
         <p>https://ec.bonamibd.com/admin/login</p>
         <p>Email: admin@gmail.com</p>
         <p>pass: 11111111<p>
         <p>`,
-        stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
+        stacks:['Html','css', 'js', 'Php', 'Mysql'],
         image:'ec.png',
-        link:'http://ec.bonamibd.com/',
-        tag:'Laravel',
+        link:'http://wallpo.fahimb.com/getAll',
+        tag:'Php',
         client:'',
         completedDate:'12-2-2019'
     },
