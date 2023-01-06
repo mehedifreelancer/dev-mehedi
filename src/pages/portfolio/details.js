@@ -41,7 +41,7 @@ function PortfolioDetails() {
                     <div className="offset-lg-1 col-lg-5">
                         <div className="portfolio_right_text mt-30">
                             <h4 className="text-uppercase">{title}</h4>
-			    <div> {data.desc}</div>
+			    <div dangerouslySetInnerHTML={{__html: data.desc}}></div>
                             <ul className="list">
                                 <li><span>Stacks</span>:
                                 {
