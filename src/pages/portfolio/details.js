@@ -52,6 +52,7 @@ function PortfolioDetails() {
                                  </li>
                                 <li><span>Client</span>: {data.client}</li>
                                 <li><span>Visit link</span><a href={data.link} target="_blank">{data.link}</a></li>
+                                <li><span>Desc</span>:  {data.desc}</li>
                                 <li><span>Completed</span>:  {data.completedDate}</li>
                             </ul>
                         </div>
