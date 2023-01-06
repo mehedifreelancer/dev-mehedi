@@ -515,7 +515,27 @@ const projects= {
             id:18,
             sr:18,
             title:`Blog Site`,
-            desc:`<p>It is a eaw php project (MLM software). For trying this project 
+            desc:`<p>It is a blog project . For trying this project 
+            credentials are given bellow.
+            <br>
+
+            <b> Admin credentials:</b>
+            <p>Admin link: https://www.strata-assist.com/login</p>
+            <p>Email: admin123@gmail.com</p>
+            <p>pass: 12345678<p>
+            <p>`,
+            stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
+            image:'strata.png',
+            link:'https://www.strata-assist.com/',
+            tag:'Laravel',
+            client:'',
+            completedDate:'12-2-2019'
+        },
+        {
+            id:18,
+            sr:18,
+            title:`Laravel API `,
+            desc:`<p>It is a wallpaper site's admin and created full api. For trying this project 
             credentials are given bellow.
             <br>
             <b> User's credentials:</b>
@@ -523,16 +543,40 @@ const projects= {
             <p>pass: 1234<p>
             </br>
             <b> Admin credentials:</b>
-            <p>User name: admin</p>
-            <p>pass: 123<p>
+            <p>Email: admin@gmail.com</p>
+            <p>pass: 12345678<p>
             <p>`,
-            stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
-            image:'blood.png',
-            link:'http://blood.bonamibd.com/',
+            stacks:['Html','css', 'js', 'Php', 'Mysql'],
+            image:'api.png',
+            link:'http://wallpo.fahimb.com/getAll',
             tag:'Php',
             client:'',
             completedDate:'12-2-2019'
         },
+
+       { id:19,
+        sr:19,
+        title:`Ecommerce Site `,
+        desc:`<p>It is a full ecommerce site with MLM system. For trying this project 
+        credentials are given bellow.
+        <br>
+        <b> User's credentials:</b>
+        <p>Phone: 01828090170</p>
+        <p>pass: 12345678<p>
+        </br>
+        <b> Admin credentials:</b>
+        <p>https://ec.bonamibd.com/admin/login</p>
+        <p>Email: admin@gmail.com</p>
+        <p>pass: 11111111<p>
+        <p>`,
+        stacks:['Html','css', 'js', 'Php', 'Mysql'],
+        image:'ec.png',
+        link:'http://wallpo.fahimb.com/getAll',
+        tag:'Php',
+        client:'',
+        completedDate:'12-2-2019'
+    },
+
 
 
     ]
