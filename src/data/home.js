@@ -546,10 +546,10 @@ const projects= {
             <p>Email: admin@gmail.com</p>
             <p>pass: 12345678<p>
             <p>`,
-            stacks:['Html','css', 'js', 'Php', 'Mysql'],
+            stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
             image:'api.png',
             link:'http://wallpo.fahimb.com/getAll',
-            tag:'Php',
+            tag:'Laravel',
             client:'',
             completedDate:'12-2-2019'
         },
@@ -569,10 +569,10 @@ const projects= {
         <p>Email: admin@gmail.com</p>
         <p>pass: 11111111<p>
         <p>`,
-        stacks:['Html','css', 'js', 'Php', 'Mysql'],
+        stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
         image:'ec.png',
-        link:'http://wallpo.fahimb.com/getAll',
-        tag:'Php',
+        link:'http://ec.bonamibd.com/',
+        tag:'Laravel',
         client:'',
         completedDate:'12-2-2019'
     },
