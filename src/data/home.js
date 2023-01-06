@@ -463,6 +463,78 @@ const projects= {
 
         },
 
+
+
+        {
+            id:16,
+            sr:16,
+            title:`Blood Donating project`,
+            desc:`<p>It is a eaw php project. For trying this project 
+            credentials are given bellow.
+            <br>
+            <b> User's credentials:</b>
+            <p>Phone: 01781873064</p>
+            <p>pass: 1234<p>
+            </br>
+            <b> Admin credentials:</b>
+            <p>User name: mhshuvo</p>
+            <p>pass: 61065a98a9c70<p>
+            <p>`,
+            stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
+            image:'blood.png',
+            link:'http://blood.bonamibd.com/',
+            tag:'Php',
+            client:'',
+            completedDate:'12-2-2019'
+        },
+
+        {
+            id:17,
+            sr:17,
+            title:`MLM software`,
+            desc:`<p>It is a eaw php project (MLM software). For trying this project 
+            credentials are given bellow.
+            <br>
+            <b> User's credentials:</b>
+            <p>Name: MHasan</p>
+            <p>pass: 1234<p>
+            </br>
+            <b> Admin credentials:</b>
+            <p>User name: admin</p>
+            <p>pass: 123<p>
+            <p>`,
+            stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
+            image:'mlm.png',
+            link:'http://blood.bonamibd.com/',
+            tag:'Php',
+            client:'',
+            completedDate:'12-2-2019'
+        },
+
+        {
+            id:18,
+            sr:18,
+            title:`Blog Site`,
+            desc:`<p>It is a eaw php project (MLM software). For trying this project 
+            credentials are given bellow.
+            <br>
+            <b> User's credentials:</b>
+            <p>Name: MHasan</p>
+            <p>pass: 1234<p>
+            </br>
+            <b> Admin credentials:</b>
+            <p>User name: admin</p>
+            <p>pass: 123<p>
+            <p>`,
+            stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
+            image:'blood.png',
+            link:'http://blood.bonamibd.com/',
+            tag:'Php',
+            client:'',
+            completedDate:'12-2-2019'
+        },
+
+
     ]
 
 }
