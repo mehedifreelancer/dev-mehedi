@@ -481,7 +481,7 @@ const projects= {
             stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
             image:'blood.png',
             link:'http://blood.bonamibd.com/',
-            tag:'Php',
+            tag:'Back End',
             client:'',
             completedDate:'12-2-2019'
         },
@@ -502,7 +502,7 @@ const projects= {
             stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
             image:'mlm.png',
             link:'http://blood.bonamibd.com/',
-            tag:'Php',
+            tag:'Back End',
             client:'',
             completedDate:'12-2-2019'
         },
@@ -521,7 +521,7 @@ const projects= {
             stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
             image:'strata.png',
             link:'https://www.strata-assist.com/',
-            tag:'Laravel',
+            tag:'Back End',
             client:'',
             completedDate:'12-2-2019'
         },
@@ -541,7 +541,7 @@ const projects= {
             stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
             image:'api.png',
             link:'http://wallpo.fahimb.com/getAll',
-            tag:'Laravel',
+            tag:'Back End',
             client:'',
             completedDate:'12-2-2019'
         },
@@ -562,7 +562,7 @@ const projects= {
         stacks:['Html','css', 'js', 'Laravel', 'Mysql'],
         image:'ec.png',
         link:'http://wallpo.fahimb.com/getAll',
-        tag:'Laravel',
+        tag:'Back End',
         client:'',
         completedDate:'12-2-2019'
     },
