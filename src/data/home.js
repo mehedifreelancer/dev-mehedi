@@ -40,7 +40,7 @@ const contact ={
 const hero= {
     logoName:'Dev-Mehedi',
     name:'Mehedi Hasan',
-    roll:'Front-End Developer',
+    roll:'Fullstack Developer',
     heroImage:'',
     exp:5
 }
